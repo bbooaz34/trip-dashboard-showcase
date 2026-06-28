@@ -1,0 +1,57 @@
+/* ── iOS 26 "Liquid Glass" design tokens ── */
+:root {
+  /* backgrounds */
+  --bg: #F2F2F7;
+  --card: #FFFFFF;
+  --surface: #FFFFFF;
+  --surface-soft: rgba(118, 118, 128, 0.12);
+
+  /* labels / ink */
+  --label: #000000;
+  --label-2: rgba(60, 60, 67, 0.60);
+  --label-3: rgba(60, 60, 67, 0.30);
+  --label-4: rgba(60, 60, 67, 0.18);
+  --ink: #000000;
+  --ink-2: rgba(60, 60, 67, 0.60);
+  --ink-3: rgba(60, 60, 67, 0.30);
+  --ink-4: rgba(60, 60, 67, 0.18);
+
+  /* separators / fills */
+  --sep: rgba(60, 60, 67, 0.12);
+  --fill-1: rgba(120, 120, 128, 0.20);
+  --fill-2: rgba(120, 120, 128, 0.16);
+  --fill-3: rgba(118, 118, 128, 0.12);
+  --fill-4: rgba(116, 116, 128, 0.08);
+  --line: rgba(60, 60, 67, 0.12);
+  --line-2: rgba(60, 60, 67, 0.18);
+
+  /* system colors */
+  --tint: #0088FF;
+  --tint-soft: color-mix(in srgb, var(--tint) 13%, transparent);
+  --green: #34C759;
+  --red: #FF383C;
+  --orange: #FF9500;
+  --yellow: #FFCC00;
+  --teal: #30B0C7;
+  --indigo: #6155F5;
+  --gray: #8E8E93;
+
+  /* radii */
+  --r-sm: 12px;
+  --r-md: 14px;
+  --r-lg: 26px;
+  --r-xl: 32px;
+  --r-card: 26px;
+  --r-field: 14px;
+  --r-cap: 999px;
+
+  /* chrome / safe areas */
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+  --tabbar-h: 82px;
+
+  --font: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display",
+          "SF Pro", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-rounded: ui-rounded, "SF Pro Rounded", -apple-system, BlinkMacSystemFont,
+                  "Segoe UI", sans-serif;
+}
